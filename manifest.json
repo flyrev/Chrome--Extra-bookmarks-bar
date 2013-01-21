@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Extra bookmark bar",
+  "description": "This plugin gives you an extra bookmarks bar",
+  "version": "1.0.0",
+   
+  "permissions": [
+    "bookmarks",
+	"storage"
+  ],
+  
+  "options_page": "options.html",
+  
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["jquery-1.8.3.js", "extra-bar.js"],
+	  "css": ["extra-bar.css"]
+    }
+  ]
+}

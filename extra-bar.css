@@ -1,0 +1,23 @@
+#extra_bar{
+  cursor: default;
+  position: fixed;
+  bottom: 0;
+  left: 0;  
+  width: 100%;
+  background-color: #c0c0c0;
+  font-family: Delicious, sans-serif; 
+  color: #000000;
+  font-size: medium;
+  text-align: left;
+  z-index: 10000;
+}
+
+a.extra_bar_link,a.extra_bar_link:visited {
+	text-decoration:none;
+	color: blue;
+}
+
+a.extra_bar_link:hover {
+	text-decoration:none;
+	color:green;
+}
