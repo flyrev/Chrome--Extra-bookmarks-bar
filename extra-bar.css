@@ -15,9 +15,13 @@
 a.extra_bar_link,a.extra_bar_link:visited {
 	text-decoration:none;
 	color: blue;
+	font-size: medium;
+	font-family: Delicious, sans-serif; 
 }
 
 a.extra_bar_link:hover {
 	text-decoration:none;
 	color:green;
+	font-size: medium;
+	font-family: Delicious, sans-serif; 
 }
